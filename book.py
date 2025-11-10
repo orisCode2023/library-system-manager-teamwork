@@ -1,11 +1,11 @@
 class Book:
-    counter = 100001 
-    def __init__(self,title:str,author:str):
+    
+    def __init__(self,title:str,author:str,ISBN):
         self.title = title
         self.author = author
-        self.ISBN = Book.counter
+        self.ISBN = ISBN
         self.is_available = True
-        Book.counter += 13
+        
 
     def change_status(self):
         
