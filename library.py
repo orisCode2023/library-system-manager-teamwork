@@ -63,21 +63,23 @@ class Library:
             print(f'No book found with ISBN {book_isbn}.')
 
 
+    
     def list_available_books(self):
         available_books = []
         for book in self.lst_of_book:
             if book.is_available:
-                available_books.append(book.title)
+                available_books.append(book)
         return available_books
-    
-    
-    def search_book(self,title):
-        lst = self.list_available_books()
-        for book in lst:
-            if title == book.title:
-                print(f'The book {title} is available')
-            else :
-                print(f'The book {title} is unavailable')
+
+    def search_book(self, title):
+        found = False
+        for book in self.list_available_books():
+            if book.title.lower() == title.lower():
+                print(f'The book "{title}" is available.')
+                found = True
+                break
+        if not found:
+            print(f'The book "{title}" is unavailable.')
 
         
 
