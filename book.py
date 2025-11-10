@@ -8,7 +8,7 @@ class Book:
         Book.counter += 13
 
     def change_status(self):
-        # bascule l'état de disponibilité
+        
         self.is_available = not self.is_available
     def __str__(self):
         status = 'Available' if self.is_available else 'Checked out'
@@ -18,9 +18,3 @@ class Book:
                 
         
     
-a = Book('asd','cvb')
-b = Book('FTY','YTF')
-print(a)
-print(b)
-a.change_status()
-print(a)
