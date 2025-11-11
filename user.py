@@ -1,4 +1,4 @@
-class Member:
+class User:
     counter = 1
     def __init__(self, name: str):
         self.name = name
