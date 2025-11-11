@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "ISBN": "978-0061120084"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "ISBN": "978-0451524935"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "ISBN": "978-0743273565"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "ISBN": "978-0141439518"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "ISBN": "978-0345339683"
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "ISBN": "978-0141441146"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "ISBN": "978-0316769488"
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "ISBN": "978-0142437247"
+    },
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "ISBN": "978-0147514013"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "ISBN": "978-0486282114"
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "ISBN": "978-0141439556"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "ISBN": "978-0060850524"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "ISBN": "978-0141442037"
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "ISBN": "978-0486415871"
+    },
+    {
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "ISBN": "978-0141439617"
+    },
+    {
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "ISBN": "978-0141321073"
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "ISBN": "978-0060935108"
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "ISBN": "978-1400079988"
+    },
+    {
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "ISBN": "978-0143039730"
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "ISBN": "978-0486411095"
+    }
+  ]
+}
