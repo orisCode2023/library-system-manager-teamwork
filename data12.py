@@ -41,13 +41,5 @@ class Data:
 
 
 
-data = Data()
-d = {"title":"mishna", "author":"r yeuda", "ISBN": "132148843765"}
-my_data = data.load_from_json("books.json")
-# update_data = data.add_to_data(my_data, d)
-# data.write_to_json("books.json", update_data)
-data.write_to_csv("books.csv", my_data)
-print(data.read_from_csv("books.csv"))
-
 
 
