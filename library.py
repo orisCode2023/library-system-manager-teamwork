@@ -5,9 +5,11 @@ class Library:
 
     def add_book(self,book):
         self.lst_of_book.append(book)
+        return book.__dict__
     
     def add_user(self,user):
         self.lst_of_users.append(user)
+        return user.__dict__
     
     def borrow_book(self,user_id, book_isbn):
         found_book = False
@@ -21,7 +23,7 @@ class Library:
                             found_user = True
                             if book.is_available:
                                 print(f'The book "{book.title}" is available.')
-                                user.borrowed_books.append(book_isbn)
+                                user.borrowed_books.append(book)
                                 book.change_status()
                             else:
                                 print(f'The book "{book.title}" is currently unavailable.')
@@ -49,7 +51,7 @@ class Library:
                             else:
                                 if book_isbn in user.borrowed_books:
                                     print(f'The book "{book.title}" has been returned.')
-                                    user.borrowed_books.remove(book_isbn)
+                                    user.borrowed_books.remove(book)
                                     book.change_status()
                                 else:
                                     print(f'User {user_id} did not borrow the book "{book.title}".')
@@ -81,6 +83,14 @@ class Library:
         if not found:
             print(f'The book "{title}" is unavailable.')
 
-        
+    def search_book_by_author(self, author):
+        found = False
+        for book in self.list_available_books():
+            if book.author.lower() == author.lower():
+                print(f'All books "{author}" is available.')
+                found = True
+                
+        if not found:
+            print(f'The book "{author}" is unavailable.')    
 
             
